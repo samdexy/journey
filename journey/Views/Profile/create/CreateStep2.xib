@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Create Step2" customClass="CreateStep2" customModule="journey" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLm-72-6b4" userLabel="lblMain">
+                    <rect key="frame" x="15" y="15" width="345" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sub Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nno-X1-SPq" userLabel="lblSub">
+                    <rect key="frame" x="15" y="35" width="345" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kCM-kh-H6u">
+                    <rect key="frame" x="15" y="56" width="345" height="278"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </scrollView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jXR-3E-LBM" userLabel="BtnNextShadow">
+                    <rect key="frame" x="67" y="404" width="240" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laI-FC-9DC" userLabel="btnToStep3">
+                    <rect key="frame" x="67" y="404" width="240" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="BUTTON TO STEP 3"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CdQ-C0-Ob9" userLabel="btnAddKeyword">
+                    <rect key="frame" x="67" y="356" width="240" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                    <state key="normal" title="Add keywords +"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hLm-72-6b4" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" constant="-15" id="CM7-QA-9mg"/>
+                <constraint firstItem="hLm-72-6b4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="ZLo-hz-N2M"/>
+                <constraint firstItem="nno-X1-SPq" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" constant="-15" id="bu7-lm-mMK"/>
+                <constraint firstItem="nno-X1-SPq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="ev1-1A-MRF"/>
+                <constraint firstItem="hLm-72-6b4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="gsT-4x-ZOB"/>
+                <constraint firstItem="nno-X1-SPq" firstAttribute="top" secondItem="hLm-72-6b4" secondAttribute="bottom" constant="-1" id="pvJ-jt-baw"/>
+            </constraints>
+            <connections>
+                <outlet property="btnAddKeyword" destination="CdQ-C0-Ob9" id="d79-IC-dqs"/>
+                <outlet property="btnNextShadow" destination="jXR-3E-LBM" id="dB3-UM-hXB"/>
+                <outlet property="btnToStep3" destination="laI-FC-9DC" id="znf-rN-Mfo"/>
+                <outlet property="lblMain" destination="hLm-72-6b4" id="lBK-HI-rcZ"/>
+                <outlet property="lblSub" destination="nno-X1-SPq" id="0nM-yN-Rp5"/>
+                <outlet property="scrollView" destination="kCM-kh-H6u" id="2Lm-9L-Imf"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

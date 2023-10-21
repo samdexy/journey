@@ -1,0 +1,1101 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C7591C49C13712D0865A058 /* Pods_journey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548B5AA52AD34D1525A97551 /* Pods_journey.framework */; };
+		850FB66320A78A73003DDD0D /* EditEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850FB66220A78A73003DDD0D /* EditEntryViewController.swift */; };
+		8516069F20714708009ACC9C /* ProfileTopKeywords.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8516069E20714708009ACC9C /* ProfileTopKeywords.xib */; };
+		851606A1207147D1009ACC9C /* ProfileTopKeywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851606A0207147D1009ACC9C /* ProfileTopKeywords.swift */; };
+		85265D64207E9A6B001B0B32 /* ProfileCreate2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85265D63207E9A6B001B0B32 /* ProfileCreate2ViewController.swift */; };
+		85265D66207E9E6E001B0B32 /* CreateStep2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85265D65207E9E6E001B0B32 /* CreateStep2.xib */; };
+		85265D68207E9E88001B0B32 /* CreateStep2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85265D67207E9E88001B0B32 /* CreateStep2.swift */; };
+		852B540120A1091600B45B26 /* EntryKeywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852B540020A1091600B45B26 /* EntryKeywords.swift */; };
+		852B540320A10A2200B45B26 /* Entries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852B540220A10A2200B45B26 /* Entries.swift */; };
+		852D862D208FAB25001E60CF /* ProfileEditInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852D862C208FAB25001E60CF /* ProfileEditInfoViewController.swift */; };
+		852D862F208FAB5B001E60CF /* ProfileEditKeywords1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852D862E208FAB5B001E60CF /* ProfileEditKeywords1ViewController.swift */; };
+		852D8631208FAB73001E60CF /* ProfileEditKeywords2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852D8630208FAB73001E60CF /* ProfileEditKeywords2ViewController.swift */; };
+		852F1FD7206940F400BBF740 /* Brandon_med.otf in Resources */ = {isa = PBXBuildFile; fileRef = 852F1FD2206940F400BBF740 /* Brandon_med.otf */; };
+		852F1FD8206940F400BBF740 /* Brandon_bld.otf in Resources */ = {isa = PBXBuildFile; fileRef = 852F1FD3206940F400BBF740 /* Brandon_bld.otf */; };
+		852F1FD9206940F400BBF740 /* Brandon_light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 852F1FD4206940F400BBF740 /* Brandon_light.otf */; };
+		852F1FDA206940F400BBF740 /* Brandon_reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 852F1FD5206940F400BBF740 /* Brandon_reg.otf */; };
+		852F1FDB206940F400BBF740 /* Brandon_thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 852F1FD6206940F400BBF740 /* Brandon_thin.otf */; };
+		85318191209FD7F200836827 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85318190209FD7F200836827 /* RadioButton.swift */; };
+		85318193209FD9F500836827 /* DownStateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85318192209FD9F500836827 /* DownStateButton.swift */; };
+		853503A52067E4CD00A08DD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853503A42067E4CD00A08DD9 /* AppDelegate.swift */; };
+		853503A72067E4CD00A08DD9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853503A62067E4CD00A08DD9 /* ProfileViewController.swift */; };
+		853503A92067E4CD00A08DD9 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853503A82067E4CD00A08DD9 /* JournalViewController.swift */; };
+		853503AC2067E4CD00A08DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853503AA2067E4CD00A08DD9 /* Main.storyboard */; };
+		853503AE2067E4CD00A08DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853503AD2067E4CD00A08DD9 /* Assets.xcassets */; };
+		853503B12067E4CD00A08DD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853503AF2067E4CD00A08DD9 /* LaunchScreen.storyboard */; };
+		853503BC2067E4CD00A08DD9 /* journeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853503BB2067E4CD00A08DD9 /* journeyTests.swift */; };
+		853503C72067E4CD00A08DD9 /* journeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853503C62067E4CD00A08DD9 /* journeyUITests.swift */; };
+		853503D62067E76100A08DD9 /* MoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853503D42067E76100A08DD9 /* MoodViewController.swift */; };
+		853503D72067E76100A08DD9 /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853503D52067E76100A08DD9 /* GoalsViewController.swift */; };
+		853503D92067EB6800A08DD9 /* ConfigFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853503D82067EB6800A08DD9 /* ConfigFile.swift */; };
+		853D110A209D0F45000C2944 /* CreateEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853D1109209D0F45000C2944 /* CreateEntryViewController.swift */; };
+		85452B8120828EC90027A594 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85452B8020828EC90027A594 /* DataHelper.swift */; };
+		85452B84208290430027A594 /* Keywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85452B83208290430027A594 /* Keywords.swift */; };
+		8567DDD020938C5A0044BE87 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDCF20938C5A0044BE87 /* CalendarViewController.swift */; };
+		8567DDD220938C8E0044BE87 /* EntriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDD120938C8E0044BE87 /* EntriesViewController.swift */; };
+		8567DDD42093D9D40044BE87 /* JournalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDD32093D9D40044BE87 /* JournalTabBarController.swift */; };
+		8567DDFA209533370044BE87 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8567DDDC209533340044BE87 /* Info.plist */; };
+		8567DDFB209533370044BE87 /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDDD209533340044BE87 /* FSCalendarDelegationProxy.m */; };
+		8567DDFC209533370044BE87 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDDE209533350044BE87 /* FSCalendar.m */; };
+		8567DDFD209533370044BE87 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDDF209533350044BE87 /* FSCalendarAppearance.m */; };
+		8567DDFE209533370044BE87 /* FSCalendar+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDE0209533350044BE87 /* FSCalendar+Deprecated.m */; };
+		8567DDFF209533370044BE87 /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDE1209533350044BE87 /* FSCalendarConstants.m */; };
+		8567DE00209533370044BE87 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDE4209533350044BE87 /* FSCalendarHeaderView.m */; };
+		8567DE01209533370044BE87 /* FSCalendarScopeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDE5209533350044BE87 /* FSCalendarScopeHandle.m */; };
+		8567DE02209533370044BE87 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDE8209533350044BE87 /* FSCalendarWeekdayView.m */; };
+		8567DE03209533370044BE87 /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDEA209533350044BE87 /* FSCalendarCalculator.m */; };
+		8567DE04209533370044BE87 /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDEC209533360044BE87 /* FSCalendarTransitionCoordinator.m */; };
+		8567DE05209533370044BE87 /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDED209533360044BE87 /* FSCalendarCell.m */; };
+		8567DE06209533370044BE87 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDEF209533360044BE87 /* FSCalendarStickyHeader.m */; };
+		8567DE07209533370044BE87 /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDF3209533360044BE87 /* FSCalendarExtensions.m */; };
+		8567DE08209533370044BE87 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDF4209533360044BE87 /* FSCalendarCollectionView.m */; };
+		8567DE09209533370044BE87 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDF5209533370044BE87 /* FSCalendarCollectionViewLayout.m */; };
+		8567DE0A209533370044BE87 /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567DDF6209533370044BE87 /* FSCalendarDelegationFactory.m */; };
+		856B58CD20813F7800509EA8 /* ProfileCreate3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856B58CC20813F7800509EA8 /* ProfileCreate3ViewController.swift */; };
+		8576E8FF20A9D54E00B8C823 /* CreateGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8576E8FE20A9D54E00B8C823 /* CreateGoalViewController.swift */; };
+		8576E90120A9D55C00B8C823 /* EditGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8576E90020A9D55C00B8C823 /* EditGoalViewController.swift */; };
+		8576E90320A9E1F500B8C823 /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8576E90220A9E1F500B8C823 /* Goals.swift */; };
+		8576E90520A9E20B00B8C823 /* Evaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8576E90420A9E20B00B8C823 /* Evaluation.swift */; };
+		8576E90720A9E22000B8C823 /* GoalKeywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8576E90620A9E22000B8C823 /* GoalKeywords.swift */; };
+		8582976720768FB800BC0F6A /* CreateStep1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8582976620768FB800BC0F6A /* CreateStep1.xib */; };
+		85829769207692EC00BC0F6A /* CreateStep1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85829768207692EC00BC0F6A /* CreateStep1.swift */; };
+		8594A2E920C6EF2B004CAFD7 /* StatsTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8594A2E820C6EF2B004CAFD7 /* StatsTabBarController.swift */; };
+		8594A2EB20C6EF5D004CAFD7 /* MentalHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8594A2EA20C6EF5D004CAFD7 /* MentalHealthViewController.swift */; };
+		8594A2ED20C6FFE0004CAFD7 /* Highcharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8594A2EC20C6FFE0004CAFD7 /* Highcharts.framework */; };
+		8594A2EF20C70695004CAFD7 /* OptionsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8594A2EE20C70695004CAFD7 /* OptionsProvider.swift */; };
+		8598986E2072998E0079A746 /* journey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8598986C2072998E0079A746 /* journey.xcdatamodeld */; };
+		859898702072A5BB0079A746 /* ProfileCreate1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598986F2072A5BB0079A746 /* ProfileCreate1ViewController.swift */; };
+		859B18E620879F6B0078F550 /* ProfileAddKeywordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859B18E520879F6B0078F550 /* ProfileAddKeywordViewController.swift */; };
+		85A9377220C84C0C00449ED4 /* toolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9377120C84C0C00449ED4 /* toolbarView.swift */; };
+		85A9377420C84C2000449ED4 /* toolbarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A9377320C84C2000449ED4 /* toolbarView.xib */; };
+		85B90F9720ADCBA300878276 /* EvaluateGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B90F9620ADCBA300878276 /* EvaluateGoalViewController.swift */; };
+		85BE5D1C206FCD4E00A4C7EA /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BE5D1B206FCD4E00A4C7EA /* ProfileHeader.swift */; };
+		85BE5D28206FD0BE00A4C7EA /* ProfileHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85BE5D27206FD0BE00A4C7EA /* ProfileHeader.xib */; };
+		85BE5D2A206FF06B00A4C7EA /* ProfileInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85BE5D29206FF06B00A4C7EA /* ProfileInfo.xib */; };
+		85BE5D2C206FF71700A4C7EA /* ProfileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BE5D2B206FF71700A4C7EA /* ProfileInfo.swift */; };
+		85C88EEC2096631A00B745C3 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C88EEB2096631A00B745C3 /* Events.swift */; };
+		85C88EEF2096654500B745C3 /* eventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C88EEE2096654500B745C3 /* eventCell.xib */; };
+		85C88EF12096656100B745C3 /* eventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C88EF02096656100B745C3 /* eventCell.swift */; };
+		85E0C1FD209BA8A2004BFC4C /* entryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E0C1FC209BA8A2004BFC4C /* entryView.xib */; };
+		85E0C1FF209BA8B5004BFC4C /* entryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0C1FE209BA8B5004BFC4C /* entryView.swift */; };
+		85E4392F208A6A4200E139FA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E4392E208A6A4200E139FA /* Profile.swift */; };
+		85E43933208A822700E139FA /* ProfileKeywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E43932208A822700E139FA /* ProfileKeywords.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		853503B82067E4CD00A08DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853503992067E4CD00A08DD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853503A02067E4CD00A08DD9;
+			remoteInfo = journey;
+		};
+		853503C32067E4CD00A08DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853503992067E4CD00A08DD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853503A02067E4CD00A08DD9;
+			remoteInfo = journey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FFEAC2FAB6F146536F58B4B /* Pods-journey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-journey.release.xcconfig"; path = "Pods/Target Support Files/Pods-journey/Pods-journey.release.xcconfig"; sourceTree = "<group>"; };
+		548B5AA52AD34D1525A97551 /* Pods_journey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_journey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		850FB66220A78A73003DDD0D /* EditEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEntryViewController.swift; sourceTree = "<group>"; };
+		8516069E20714708009ACC9C /* ProfileTopKeywords.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTopKeywords.xib; sourceTree = "<group>"; };
+		851606A0207147D1009ACC9C /* ProfileTopKeywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTopKeywords.swift; sourceTree = "<group>"; };
+		85265D63207E9A6B001B0B32 /* ProfileCreate2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCreate2ViewController.swift; sourceTree = "<group>"; };
+		85265D65207E9E6E001B0B32 /* CreateStep2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateStep2.xib; sourceTree = "<group>"; };
+		85265D67207E9E88001B0B32 /* CreateStep2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStep2.swift; sourceTree = "<group>"; };
+		852B540020A1091600B45B26 /* EntryKeywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryKeywords.swift; sourceTree = "<group>"; };
+		852B540220A10A2200B45B26 /* Entries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entries.swift; sourceTree = "<group>"; };
+		852D862C208FAB25001E60CF /* ProfileEditInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditInfoViewController.swift; sourceTree = "<group>"; };
+		852D862E208FAB5B001E60CF /* ProfileEditKeywords1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditKeywords1ViewController.swift; sourceTree = "<group>"; };
+		852D8630208FAB73001E60CF /* ProfileEditKeywords2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditKeywords2ViewController.swift; sourceTree = "<group>"; };
+		852F1FD2206940F400BBF740 /* Brandon_med.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_med.otf; sourceTree = "<group>"; };
+		852F1FD3206940F400BBF740 /* Brandon_bld.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_bld.otf; sourceTree = "<group>"; };
+		852F1FD4206940F400BBF740 /* Brandon_light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_light.otf; sourceTree = "<group>"; };
+		852F1FD5206940F400BBF740 /* Brandon_reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_reg.otf; sourceTree = "<group>"; };
+		852F1FD6206940F400BBF740 /* Brandon_thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_thin.otf; sourceTree = "<group>"; };
+		85318190209FD7F200836827 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		85318192209FD9F500836827 /* DownStateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownStateButton.swift; sourceTree = "<group>"; };
+		853503A12067E4CD00A08DD9 /* journey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = journey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		853503A42067E4CD00A08DD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		853503A62067E4CD00A08DD9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
+		853503A82067E4CD00A08DD9 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		853503AB2067E4CD00A08DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		853503AD2067E4CD00A08DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		853503B02067E4CD00A08DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		853503B22067E4CD00A08DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853503B72067E4CD00A08DD9 /* journeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = journeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		853503BB2067E4CD00A08DD9 /* journeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journeyTests.swift; sourceTree = "<group>"; };
+		853503BD2067E4CD00A08DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853503C22067E4CD00A08DD9 /* journeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = journeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		853503C62067E4CD00A08DD9 /* journeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journeyUITests.swift; sourceTree = "<group>"; };
+		853503C82067E4CD00A08DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853503D42067E76100A08DD9 /* MoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodViewController.swift; sourceTree = "<group>"; };
+		853503D52067E76100A08DD9 /* GoalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
+		853503D82067EB6800A08DD9 /* ConfigFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigFile.swift; sourceTree = "<group>"; };
+		853D1109209D0F45000C2944 /* CreateEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEntryViewController.swift; sourceTree = "<group>"; };
+		85452B8020828EC90027A594 /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
+		85452B83208290430027A594 /* Keywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keywords.swift; sourceTree = "<group>"; };
+		8567DDCF20938C5A0044BE87 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		8567DDD120938C8E0044BE87 /* EntriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesViewController.swift; sourceTree = "<group>"; };
+		8567DDD32093D9D40044BE87 /* JournalTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTabBarController.swift; sourceTree = "<group>"; };
+		8567DDD8209533340044BE87 /* journey-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "journey-Bridging-Header.h"; sourceTree = "<group>"; };
+		8567DDD9209533340044BE87 /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarCell.h"; sourceTree = "<group>"; };
+		8567DDDA209533340044BE87 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarDynamicHeader.h"; sourceTree = "<group>"; };
+		8567DDDB209533340044BE87 /* FSCalendarCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarCalculator.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarCalculator.h"; sourceTree = "<group>"; };
+		8567DDDC209533340044BE87 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../FSCalendar-master/FSCalendar/Info.plist"; sourceTree = "<group>"; };
+		8567DDDD209533340044BE87 /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationProxy.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendarDelegationProxy.m"; sourceTree = "<group>"; };
+		8567DDDE209533350044BE87 /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendar.m"; sourceTree = "<group>"; };
+		8567DDDF209533350044BE87 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendarAppearance.m"; sourceTree = "<group>"; };
+		8567DDE0209533350044BE87 /* FSCalendar+Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "FSCalendar+Deprecated.m"; path = "../../../FSCalendar-master/FSCalendar/FSCalendar+Deprecated.m"; sourceTree = "<group>"; };
+		8567DDE1209533350044BE87 /* FSCalendarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstants.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendarConstants.m"; sourceTree = "<group>"; };
+		8567DDE2209533350044BE87 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarAppearance.h"; sourceTree = "<group>"; };
+		8567DDE3209533350044BE87 /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarCollectionViewLayout.h"; sourceTree = "<group>"; };
+		8567DDE4209533350044BE87 /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeaderView.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendarHeaderView.m"; sourceTree = "<group>"; };
+		8567DDE5209533350044BE87 /* FSCalendarScopeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarScopeHandle.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendarScopeHandle.m"; sourceTree = "<group>"; };
+		8567DDE6209533350044BE87 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarWeekdayView.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarWeekdayView.h"; sourceTree = "<group>"; };
+		8567DDE7209533350044BE87 /* FSCalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstants.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarConstants.h"; sourceTree = "<group>"; };
+		8567DDE8209533350044BE87 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarWeekdayView.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendarWeekdayView.m"; sourceTree = "<group>"; };
+		8567DDE9209533350044BE87 /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarTransitionCoordinator.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarTransitionCoordinator.h"; sourceTree = "<group>"; };
+		8567DDEA209533350044BE87 /* FSCalendarCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCalculator.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendarCalculator.m"; sourceTree = "<group>"; };
+		8567DDEB209533360044BE87 /* FSCalendarExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarExtensions.h"; sourceTree = "<group>"; };
+		8567DDEC209533360044BE87 /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendarTransitionCoordinator.m"; sourceTree = "<group>"; };
+		8567DDED209533360044BE87 /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendarCell.m"; sourceTree = "<group>"; };
+		8567DDEE209533360044BE87 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarStickyHeader.h"; sourceTree = "<group>"; };
+		8567DDEF209533360044BE87 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendarStickyHeader.m"; sourceTree = "<group>"; };
+		8567DDF0209533360044BE87 /* FSCalendarScopeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarScopeHandle.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarScopeHandle.h"; sourceTree = "<group>"; };
+		8567DDF1209533360044BE87 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationProxy.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarDelegationProxy.h"; sourceTree = "<group>"; };
+		8567DDF2209533360044BE87 /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendar.h"; sourceTree = "<group>"; };
+		8567DDF3209533360044BE87 /* FSCalendarExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarExtensions.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendarExtensions.m"; sourceTree = "<group>"; };
+		8567DDF4209533360044BE87 /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendarCollectionView.m"; sourceTree = "<group>"; };
+		8567DDF5209533370044BE87 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionViewLayout.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendarCollectionViewLayout.m"; sourceTree = "<group>"; };
+		8567DDF6209533370044BE87 /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationFactory.m; path = "../../../FSCalendar-master/FSCalendar/FSCalendarDelegationFactory.m"; sourceTree = "<group>"; };
+		8567DDF7209533370044BE87 /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeaderView.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarHeaderView.h"; sourceTree = "<group>"; };
+		8567DDF8209533370044BE87 /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationFactory.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarDelegationFactory.h"; sourceTree = "<group>"; };
+		8567DDF9209533370044BE87 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = "../../../FSCalendar-master/FSCalendar/FSCalendarCollectionView.h"; sourceTree = "<group>"; };
+		856B58CC20813F7800509EA8 /* ProfileCreate3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCreate3ViewController.swift; sourceTree = "<group>"; };
+		8576E8FE20A9D54E00B8C823 /* CreateGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalViewController.swift; sourceTree = "<group>"; };
+		8576E90020A9D55C00B8C823 /* EditGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalViewController.swift; sourceTree = "<group>"; };
+		8576E90220A9E1F500B8C823 /* Goals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
+		8576E90420A9E20B00B8C823 /* Evaluation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evaluation.swift; sourceTree = "<group>"; };
+		8576E90620A9E22000B8C823 /* GoalKeywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalKeywords.swift; sourceTree = "<group>"; };
+		8582976620768FB800BC0F6A /* CreateStep1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateStep1.xib; sourceTree = "<group>"; };
+		85829768207692EC00BC0F6A /* CreateStep1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStep1.swift; sourceTree = "<group>"; };
+		8594A2E820C6EF2B004CAFD7 /* StatsTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsTabBarController.swift; sourceTree = "<group>"; };
+		8594A2EA20C6EF5D004CAFD7 /* MentalHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthViewController.swift; sourceTree = "<group>"; };
+		8594A2EC20C6FFE0004CAFD7 /* Highcharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Highcharts.framework; path = "../highcharts-ios-master/Example/HighFit/HighFit Swift/Highcharts.framework"; sourceTree = "<group>"; };
+		8594A2EE20C70695004CAFD7 /* OptionsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsProvider.swift; sourceTree = "<group>"; };
+		8598986D2072998E0079A746 /* journey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = journey.xcdatamodel; sourceTree = "<group>"; };
+		8598986F2072A5BB0079A746 /* ProfileCreate1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCreate1ViewController.swift; sourceTree = "<group>"; };
+		859B18E520879F6B0078F550 /* ProfileAddKeywordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAddKeywordViewController.swift; sourceTree = "<group>"; };
+		85A9377120C84C0C00449ED4 /* toolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toolbarView.swift; sourceTree = "<group>"; };
+		85A9377320C84C2000449ED4 /* toolbarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = toolbarView.xib; sourceTree = "<group>"; };
+		85B90F9620ADCBA300878276 /* EvaluateGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateGoalViewController.swift; sourceTree = "<group>"; };
+		85BE5D1B206FCD4E00A4C7EA /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		85BE5D27206FD0BE00A4C7EA /* ProfileHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileHeader.xib; sourceTree = "<group>"; };
+		85BE5D29206FF06B00A4C7EA /* ProfileInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileInfo.xib; sourceTree = "<group>"; };
+		85BE5D2B206FF71700A4C7EA /* ProfileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfo.swift; sourceTree = "<group>"; };
+		85C88EEB2096631A00B745C3 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		85C88EEE2096654500B745C3 /* eventCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = eventCell.xib; sourceTree = "<group>"; };
+		85C88EF02096656100B745C3 /* eventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventCell.swift; sourceTree = "<group>"; };
+		85E0C1FC209BA8A2004BFC4C /* entryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = entryView.xib; sourceTree = "<group>"; };
+		85E0C1FE209BA8B5004BFC4C /* entryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entryView.swift; sourceTree = "<group>"; };
+		85E4392E208A6A4200E139FA /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		85E43932208A822700E139FA /* ProfileKeywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileKeywords.swift; sourceTree = "<group>"; };
+		E47F9BB7B6C3777D71AF68EB /* Pods-journey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-journey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-journey/Pods-journey.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8535039E2067E4CD00A08DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7591C49C13712D0865A058 /* Pods_journey.framework in Frameworks */,
+				8594A2ED20C6FFE0004CAFD7 /* Highcharts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853503B42067E4CD00A08DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853503BF2067E4CD00A08DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43316E51584AFA0B1EA76B6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E47F9BB7B6C3777D71AF68EB /* Pods-journey.debug.xcconfig */,
+				1FFEAC2FAB6F146536F58B4B /* Pods-journey.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		557103CAB5E5BECDCACC6FA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8594A2EC20C6FFE0004CAFD7 /* Highcharts.framework */,
+				548B5AA52AD34D1525A97551 /* Pods_journey.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8527370E20CEE11B009A3A17 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8598986C2072998E0079A746 /* journey.xcdatamodeld */,
+				853503AD2067E4CD00A08DD9 /* Assets.xcassets */,
+				853503AF2067E4CD00A08DD9 /* LaunchScreen.storyboard */,
+				8527370F20CEE14B009A3A17 /* fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8527370F20CEE14B009A3A17 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				852F1FD3206940F400BBF740 /* Brandon_bld.otf */,
+				852F1FD4206940F400BBF740 /* Brandon_light.otf */,
+				852F1FD2206940F400BBF740 /* Brandon_med.otf */,
+				852F1FD5206940F400BBF740 /* Brandon_reg.otf */,
+				852F1FD6206940F400BBF740 /* Brandon_thin.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		853503982067E4CD00A08DD9 = {
+			isa = PBXGroup;
+			children = (
+				853503A32067E4CD00A08DD9 /* journey */,
+				853503BA2067E4CD00A08DD9 /* journeyTests */,
+				853503C52067E4CD00A08DD9 /* journeyUITests */,
+				853503A22067E4CD00A08DD9 /* Products */,
+				43316E51584AFA0B1EA76B6C /* Pods */,
+				557103CAB5E5BECDCACC6FA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		853503A22067E4CD00A08DD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				853503A12067E4CD00A08DD9 /* journey.app */,
+				853503B72067E4CD00A08DD9 /* journeyTests.xctest */,
+				853503C22067E4CD00A08DD9 /* journeyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		853503A32067E4CD00A08DD9 /* journey */ = {
+			isa = PBXGroup;
+			children = (
+				8527370E20CEE11B009A3A17 /* Assets */,
+				8567DDD72095330F0044BE87 /* FSCalendar */,
+				85452B82208290250027A594 /* Models */,
+				85BE5D1A206FCD3100A4C7EA /* Views */,
+				85BE5D20206FCF1C00A4C7EA /* ViewControllers */,
+				853503AA2067E4CD00A08DD9 /* Main.storyboard */,
+				853503D82067EB6800A08DD9 /* ConfigFile.swift */,
+				853503A42067E4CD00A08DD9 /* AppDelegate.swift */,
+				85452B8020828EC90027A594 /* DataHelper.swift */,
+				853503B22067E4CD00A08DD9 /* Info.plist */,
+			);
+			path = journey;
+			sourceTree = "<group>";
+		};
+		853503BA2067E4CD00A08DD9 /* journeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				853503BB2067E4CD00A08DD9 /* journeyTests.swift */,
+				853503BD2067E4CD00A08DD9 /* Info.plist */,
+			);
+			path = journeyTests;
+			sourceTree = "<group>";
+		};
+		853503C52067E4CD00A08DD9 /* journeyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				853503C62067E4CD00A08DD9 /* journeyUITests.swift */,
+				853503C82067E4CD00A08DD9 /* Info.plist */,
+			);
+			path = journeyUITests;
+			sourceTree = "<group>";
+		};
+		85452B82208290250027A594 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85452B83208290430027A594 /* Keywords.swift */,
+				85E4392E208A6A4200E139FA /* Profile.swift */,
+				85E43932208A822700E139FA /* ProfileKeywords.swift */,
+				85C88EEB2096631A00B745C3 /* Events.swift */,
+				852B540020A1091600B45B26 /* EntryKeywords.swift */,
+				852B540220A10A2200B45B26 /* Entries.swift */,
+				8576E90220A9E1F500B8C823 /* Goals.swift */,
+				8576E90420A9E20B00B8C823 /* Evaluation.swift */,
+				8576E90620A9E22000B8C823 /* GoalKeywords.swift */,
+				8594A2EE20C70695004CAFD7 /* OptionsProvider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8567DDD72095330F0044BE87 /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				8567DDF2209533360044BE87 /* FSCalendar.h */,
+				8567DDDE209533350044BE87 /* FSCalendar.m */,
+				8567DDE0209533350044BE87 /* FSCalendar+Deprecated.m */,
+				8567DDE2209533350044BE87 /* FSCalendarAppearance.h */,
+				8567DDDF209533350044BE87 /* FSCalendarAppearance.m */,
+				8567DDDB209533340044BE87 /* FSCalendarCalculator.h */,
+				8567DDEA209533350044BE87 /* FSCalendarCalculator.m */,
+				8567DDD9209533340044BE87 /* FSCalendarCell.h */,
+				8567DDED209533360044BE87 /* FSCalendarCell.m */,
+				8567DDF9209533370044BE87 /* FSCalendarCollectionView.h */,
+				8567DDF4209533360044BE87 /* FSCalendarCollectionView.m */,
+				8567DDE3209533350044BE87 /* FSCalendarCollectionViewLayout.h */,
+				8567DDF5209533370044BE87 /* FSCalendarCollectionViewLayout.m */,
+				8567DDE7209533350044BE87 /* FSCalendarConstants.h */,
+				8567DDE1209533350044BE87 /* FSCalendarConstants.m */,
+				8567DDF8209533370044BE87 /* FSCalendarDelegationFactory.h */,
+				8567DDF6209533370044BE87 /* FSCalendarDelegationFactory.m */,
+				8567DDF1209533360044BE87 /* FSCalendarDelegationProxy.h */,
+				8567DDDD209533340044BE87 /* FSCalendarDelegationProxy.m */,
+				8567DDDA209533340044BE87 /* FSCalendarDynamicHeader.h */,
+				8567DDEB209533360044BE87 /* FSCalendarExtensions.h */,
+				8567DDF3209533360044BE87 /* FSCalendarExtensions.m */,
+				8567DDF7209533370044BE87 /* FSCalendarHeaderView.h */,
+				8567DDE4209533350044BE87 /* FSCalendarHeaderView.m */,
+				8567DDF0209533360044BE87 /* FSCalendarScopeHandle.h */,
+				8567DDE5209533350044BE87 /* FSCalendarScopeHandle.m */,
+				8567DDEE209533360044BE87 /* FSCalendarStickyHeader.h */,
+				8567DDEF209533360044BE87 /* FSCalendarStickyHeader.m */,
+				8567DDE9209533350044BE87 /* FSCalendarTransitionCoordinator.h */,
+				8567DDEC209533360044BE87 /* FSCalendarTransitionCoordinator.m */,
+				8567DDE6209533350044BE87 /* FSCalendarWeekdayView.h */,
+				8567DDE8209533350044BE87 /* FSCalendarWeekdayView.m */,
+				8567DDD8209533340044BE87 /* journey-Bridging-Header.h */,
+				8567DDDC209533340044BE87 /* Info.plist */,
+			);
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		8582976520768F7000BC0F6A /* create */ = {
+			isa = PBXGroup;
+			children = (
+				8582976620768FB800BC0F6A /* CreateStep1.xib */,
+				85829768207692EC00BC0F6A /* CreateStep1.swift */,
+				85265D65207E9E6E001B0B32 /* CreateStep2.xib */,
+				85265D67207E9E88001B0B32 /* CreateStep2.swift */,
+			);
+			path = create;
+			sourceTree = "<group>";
+		};
+		8594A2F020C70A27004CAFD7 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				85A9377120C84C0C00449ED4 /* toolbarView.swift */,
+				85A9377320C84C2000449ED4 /* toolbarView.xib */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		85BE5D1A206FCD3100A4C7EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8594A2F020C70A27004CAFD7 /* Stats */,
+				85C88EED2096651400B745C3 /* Journal */,
+				85BE5D1F206FCEC900A4C7EA /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85BE5D1F206FCEC900A4C7EA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8582976520768F7000BC0F6A /* create */,
+				85BE5D1B206FCD4E00A4C7EA /* ProfileHeader.swift */,
+				85BE5D27206FD0BE00A4C7EA /* ProfileHeader.xib */,
+				85BE5D2B206FF71700A4C7EA /* ProfileInfo.swift */,
+				85BE5D29206FF06B00A4C7EA /* ProfileInfo.xib */,
+				851606A0207147D1009ACC9C /* ProfileTopKeywords.swift */,
+				8516069E20714708009ACC9C /* ProfileTopKeywords.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		85BE5D20206FCF1C00A4C7EA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				85BE5D21206FCF3F00A4C7EA /* Profile */,
+				85BE5D24206FCF6400A4C7EA /* Journal */,
+				85BE5D23206FCF5D00A4C7EA /* Stats */,
+				85BE5D22206FCF5100A4C7EA /* Goals */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		85BE5D21206FCF3F00A4C7EA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				853503A62067E4CD00A08DD9 /* ProfileViewController.swift */,
+				8598986F2072A5BB0079A746 /* ProfileCreate1ViewController.swift */,
+				85265D63207E9A6B001B0B32 /* ProfileCreate2ViewController.swift */,
+				856B58CC20813F7800509EA8 /* ProfileCreate3ViewController.swift */,
+				859B18E520879F6B0078F550 /* ProfileAddKeywordViewController.swift */,
+				852D862C208FAB25001E60CF /* ProfileEditInfoViewController.swift */,
+				852D862E208FAB5B001E60CF /* ProfileEditKeywords1ViewController.swift */,
+				852D8630208FAB73001E60CF /* ProfileEditKeywords2ViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		85BE5D22206FCF5100A4C7EA /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				853503D52067E76100A08DD9 /* GoalsViewController.swift */,
+				8576E8FE20A9D54E00B8C823 /* CreateGoalViewController.swift */,
+				8576E90020A9D55C00B8C823 /* EditGoalViewController.swift */,
+				85B90F9620ADCBA300878276 /* EvaluateGoalViewController.swift */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		85BE5D23206FCF5D00A4C7EA /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				853503D42067E76100A08DD9 /* MoodViewController.swift */,
+				8594A2E820C6EF2B004CAFD7 /* StatsTabBarController.swift */,
+				8594A2EA20C6EF5D004CAFD7 /* MentalHealthViewController.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		85BE5D24206FCF6400A4C7EA /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				853503A82067E4CD00A08DD9 /* JournalViewController.swift */,
+				8567DDCF20938C5A0044BE87 /* CalendarViewController.swift */,
+				8567DDD120938C8E0044BE87 /* EntriesViewController.swift */,
+				8567DDD32093D9D40044BE87 /* JournalTabBarController.swift */,
+				853D1109209D0F45000C2944 /* CreateEntryViewController.swift */,
+				85318190209FD7F200836827 /* RadioButton.swift */,
+				85318192209FD9F500836827 /* DownStateButton.swift */,
+				850FB66220A78A73003DDD0D /* EditEntryViewController.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		85C88EED2096651400B745C3 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				85C88EEE2096654500B745C3 /* eventCell.xib */,
+				85C88EF02096656100B745C3 /* eventCell.swift */,
+				85E0C1FC209BA8A2004BFC4C /* entryView.xib */,
+				85E0C1FE209BA8B5004BFC4C /* entryView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		853503A02067E4CD00A08DD9 /* journey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853503CB2067E4CD00A08DD9 /* Build configuration list for PBXNativeTarget "journey" */;
+			buildPhases = (
+				6C2FBBE619575A6AA348ACEE /* [CP] Check Pods Manifest.lock */,
+				8535039D2067E4CD00A08DD9 /* Sources */,
+				8535039E2067E4CD00A08DD9 /* Frameworks */,
+				8535039F2067E4CD00A08DD9 /* Resources */,
+				3D87B92717614B7C043FE8E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = journey;
+			productName = journey;
+			productReference = 853503A12067E4CD00A08DD9 /* journey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		853503B62067E4CD00A08DD9 /* journeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853503CE2067E4CD00A08DD9 /* Build configuration list for PBXNativeTarget "journeyTests" */;
+			buildPhases = (
+				853503B32067E4CD00A08DD9 /* Sources */,
+				853503B42067E4CD00A08DD9 /* Frameworks */,
+				853503B52067E4CD00A08DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853503B92067E4CD00A08DD9 /* PBXTargetDependency */,
+			);
+			name = journeyTests;
+			productName = journeyTests;
+			productReference = 853503B72067E4CD00A08DD9 /* journeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		853503C12067E4CD00A08DD9 /* journeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853503D12067E4CD00A08DD9 /* Build configuration list for PBXNativeTarget "journeyUITests" */;
+			buildPhases = (
+				853503BE2067E4CD00A08DD9 /* Sources */,
+				853503BF2067E4CD00A08DD9 /* Frameworks */,
+				853503C02067E4CD00A08DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853503C42067E4CD00A08DD9 /* PBXTargetDependency */,
+			);
+			name = journeyUITests;
+			productName = journeyUITests;
+			productReference = 853503C22067E4CD00A08DD9 /* journeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		853503992067E4CD00A08DD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "sam de smedt";
+				TargetAttributes = {
+					853503A02067E4CD00A08DD9 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Manual;
+					};
+					853503B62067E4CD00A08DD9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 853503A02067E4CD00A08DD9;
+					};
+					853503C12067E4CD00A08DD9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 853503A02067E4CD00A08DD9;
+					};
+				};
+			};
+			buildConfigurationList = 8535039C2067E4CD00A08DD9 /* Build configuration list for PBXProject "journey" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 853503982067E4CD00A08DD9;
+			productRefGroup = 853503A22067E4CD00A08DD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				853503A02067E4CD00A08DD9 /* journey */,
+				853503B62067E4CD00A08DD9 /* journeyTests */,
+				853503C12067E4CD00A08DD9 /* journeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8535039F2067E4CD00A08DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852F1FDA206940F400BBF740 /* Brandon_reg.otf in Resources */,
+				8516069F20714708009ACC9C /* ProfileTopKeywords.xib in Resources */,
+				85BE5D2A206FF06B00A4C7EA /* ProfileInfo.xib in Resources */,
+				853503B12067E4CD00A08DD9 /* LaunchScreen.storyboard in Resources */,
+				85BE5D28206FD0BE00A4C7EA /* ProfileHeader.xib in Resources */,
+				852F1FD9206940F400BBF740 /* Brandon_light.otf in Resources */,
+				8567DDFA209533370044BE87 /* Info.plist in Resources */,
+				853503AE2067E4CD00A08DD9 /* Assets.xcassets in Resources */,
+				85265D66207E9E6E001B0B32 /* CreateStep2.xib in Resources */,
+				852F1FD8206940F400BBF740 /* Brandon_bld.otf in Resources */,
+				852F1FDB206940F400BBF740 /* Brandon_thin.otf in Resources */,
+				85E0C1FD209BA8A2004BFC4C /* entryView.xib in Resources */,
+				853503AC2067E4CD00A08DD9 /* Main.storyboard in Resources */,
+				85A9377420C84C2000449ED4 /* toolbarView.xib in Resources */,
+				852F1FD7206940F400BBF740 /* Brandon_med.otf in Resources */,
+				8582976720768FB800BC0F6A /* CreateStep1.xib in Resources */,
+				85C88EEF2096654500B745C3 /* eventCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853503B52067E4CD00A08DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853503C02067E4CD00A08DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D87B92717614B7C043FE8E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-journey/Pods-journey-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${PODS_ROOT}/Highcharts/development/Highcharts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Highcharts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-journey/Pods-journey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C2FBBE619575A6AA348ACEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-journey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8535039D2067E4CD00A08DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8567DDD020938C5A0044BE87 /* CalendarViewController.swift in Sources */,
+				8567DE0A209533370044BE87 /* FSCalendarDelegationFactory.m in Sources */,
+				8567DDFE209533370044BE87 /* FSCalendar+Deprecated.m in Sources */,
+				8576E8FF20A9D54E00B8C823 /* CreateGoalViewController.swift in Sources */,
+				852D8631208FAB73001E60CF /* ProfileEditKeywords2ViewController.swift in Sources */,
+				85B90F9720ADCBA300878276 /* EvaluateGoalViewController.swift in Sources */,
+				85C88EEC2096631A00B745C3 /* Events.swift in Sources */,
+				8567DDFD209533370044BE87 /* FSCalendarAppearance.m in Sources */,
+				853503A92067E4CD00A08DD9 /* JournalViewController.swift in Sources */,
+				850FB66320A78A73003DDD0D /* EditEntryViewController.swift in Sources */,
+				8576E90520A9E20B00B8C823 /* Evaluation.swift in Sources */,
+				8567DE01209533370044BE87 /* FSCalendarScopeHandle.m in Sources */,
+				8567DE03209533370044BE87 /* FSCalendarCalculator.m in Sources */,
+				8567DE08209533370044BE87 /* FSCalendarCollectionView.m in Sources */,
+				85BE5D2C206FF71700A4C7EA /* ProfileInfo.swift in Sources */,
+				852D862F208FAB5B001E60CF /* ProfileEditKeywords1ViewController.swift in Sources */,
+				852B540320A10A2200B45B26 /* Entries.swift in Sources */,
+				851606A1207147D1009ACC9C /* ProfileTopKeywords.swift in Sources */,
+				8567DE00209533370044BE87 /* FSCalendarHeaderView.m in Sources */,
+				8567DE09209533370044BE87 /* FSCalendarCollectionViewLayout.m in Sources */,
+				853503A52067E4CD00A08DD9 /* AppDelegate.swift in Sources */,
+				8567DE07209533370044BE87 /* FSCalendarExtensions.m in Sources */,
+				859B18E620879F6B0078F550 /* ProfileAddKeywordViewController.swift in Sources */,
+				8598986E2072998E0079A746 /* journey.xcdatamodeld in Sources */,
+				8594A2EB20C6EF5D004CAFD7 /* MentalHealthViewController.swift in Sources */,
+				8567DE06209533370044BE87 /* FSCalendarStickyHeader.m in Sources */,
+				85452B8120828EC90027A594 /* DataHelper.swift in Sources */,
+				85BE5D1C206FCD4E00A4C7EA /* ProfileHeader.swift in Sources */,
+				852D862D208FAB25001E60CF /* ProfileEditInfoViewController.swift in Sources */,
+				853503D62067E76100A08DD9 /* MoodViewController.swift in Sources */,
+				85E43933208A822700E139FA /* ProfileKeywords.swift in Sources */,
+				853503D92067EB6800A08DD9 /* ConfigFile.swift in Sources */,
+				8567DDFB209533370044BE87 /* FSCalendarDelegationProxy.m in Sources */,
+				852B540120A1091600B45B26 /* EntryKeywords.swift in Sources */,
+				85A9377220C84C0C00449ED4 /* toolbarView.swift in Sources */,
+				8594A2E920C6EF2B004CAFD7 /* StatsTabBarController.swift in Sources */,
+				8576E90720A9E22000B8C823 /* GoalKeywords.swift in Sources */,
+				8576E90120A9D55C00B8C823 /* EditGoalViewController.swift in Sources */,
+				856B58CD20813F7800509EA8 /* ProfileCreate3ViewController.swift in Sources */,
+				8567DE04209533370044BE87 /* FSCalendarTransitionCoordinator.m in Sources */,
+				853D110A209D0F45000C2944 /* CreateEntryViewController.swift in Sources */,
+				853503A72067E4CD00A08DD9 /* ProfileViewController.swift in Sources */,
+				8567DE02209533370044BE87 /* FSCalendarWeekdayView.m in Sources */,
+				85318191209FD7F200836827 /* RadioButton.swift in Sources */,
+				8567DDD42093D9D40044BE87 /* JournalTabBarController.swift in Sources */,
+				853503D72067E76100A08DD9 /* GoalsViewController.swift in Sources */,
+				85452B84208290430027A594 /* Keywords.swift in Sources */,
+				859898702072A5BB0079A746 /* ProfileCreate1ViewController.swift in Sources */,
+				85318193209FD9F500836827 /* DownStateButton.swift in Sources */,
+				8567DDFF209533370044BE87 /* FSCalendarConstants.m in Sources */,
+				85E0C1FF209BA8B5004BFC4C /* entryView.swift in Sources */,
+				85C88EF12096656100B745C3 /* eventCell.swift in Sources */,
+				8594A2EF20C70695004CAFD7 /* OptionsProvider.swift in Sources */,
+				8567DE05209533370044BE87 /* FSCalendarCell.m in Sources */,
+				8567DDFC209533370044BE87 /* FSCalendar.m in Sources */,
+				85829769207692EC00BC0F6A /* CreateStep1.swift in Sources */,
+				85E4392F208A6A4200E139FA /* Profile.swift in Sources */,
+				8576E90320A9E1F500B8C823 /* Goals.swift in Sources */,
+				85265D68207E9E88001B0B32 /* CreateStep2.swift in Sources */,
+				8567DDD220938C8E0044BE87 /* EntriesViewController.swift in Sources */,
+				85265D64207E9A6B001B0B32 /* ProfileCreate2ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853503B32067E4CD00A08DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853503BC2067E4CD00A08DD9 /* journeyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853503BE2067E4CD00A08DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853503C72067E4CD00A08DD9 /* journeyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		853503B92067E4CD00A08DD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853503A02067E4CD00A08DD9 /* journey */;
+			targetProxy = 853503B82067E4CD00A08DD9 /* PBXContainerItemProxy */;
+		};
+		853503C42067E4CD00A08DD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853503A02067E4CD00A08DD9 /* journey */;
+			targetProxy = 853503C32067E4CD00A08DD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		853503AA2067E4CD00A08DD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				853503AB2067E4CD00A08DD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		853503AF2067E4CD00A08DD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				853503B02067E4CD00A08DD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		853503C92067E4CD00A08DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		853503CA2067E4CD00A08DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		853503CC2067E4CD00A08DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47F9BB7B6C3777D71AF68EB /* Pods-journey.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = journey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samdesmedt.journey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"SWIFT_INCLUDE_PATHS[arch=*]" = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "journey/FSCalendar/journey-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		853503CD2067E4CD00A08DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFEAC2FAB6F146536F58B4B /* Pods-journey.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = journey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samdesmedt.journey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "journey/FSCalendar/journey-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		853503CF2067E4CD00A08DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV2K8T839A;
+				INFOPLIST_FILE = journeyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samdesmedt.journeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/journey.app/journey";
+			};
+			name = Debug;
+		};
+		853503D02067E4CD00A08DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV2K8T839A;
+				INFOPLIST_FILE = journeyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samdesmedt.journeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/journey.app/journey";
+			};
+			name = Release;
+		};
+		853503D22067E4CD00A08DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV2K8T839A;
+				INFOPLIST_FILE = journeyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samdesmedt.journeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = journey;
+			};
+			name = Debug;
+		};
+		853503D32067E4CD00A08DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV2K8T839A;
+				INFOPLIST_FILE = journeyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samdesmedt.journeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = journey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8535039C2067E4CD00A08DD9 /* Build configuration list for PBXProject "journey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853503C92067E4CD00A08DD9 /* Debug */,
+				853503CA2067E4CD00A08DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853503CB2067E4CD00A08DD9 /* Build configuration list for PBXNativeTarget "journey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853503CC2067E4CD00A08DD9 /* Debug */,
+				853503CD2067E4CD00A08DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853503CE2067E4CD00A08DD9 /* Build configuration list for PBXNativeTarget "journeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853503CF2067E4CD00A08DD9 /* Debug */,
+				853503D02067E4CD00A08DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853503D12067E4CD00A08DD9 /* Build configuration list for PBXNativeTarget "journeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853503D22067E4CD00A08DD9 /* Debug */,
+				853503D32067E4CD00A08DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8598986C2072998E0079A746 /* journey.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8598986D2072998E0079A746 /* journey.xcdatamodel */,
+			);
+			currentVersion = 8598986D2072998E0079A746 /* journey.xcdatamodel */;
+			path = journey.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 853503992067E4CD00A08DD9 /* Project object */;
+}
